@@ -1,0 +1,150 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('bg1.jpg')
+}
+
+body {
+    background-position: -9px -7px;
+}
+
+.left {
+
+    display: inline-block;
+
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+
+    width: 60px;
+    margin: -1px 11px;
+    filter: invert(100%);
+}
+
+.left div {
+
+    font-size: 13px;
+    margin: -7px -21px;
+    font-family: 'Bruno Ace SC', cursive;
+    letter-spacing: 3px;
+    /*text-align: center;*/
+}
+
+.mid {
+
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+
+
+}
+
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 41px;
+    display: inline-block;
+
+
+}
+
+.btn {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background-color: rgb(57, 53, 53);
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.navbar li a {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    padding: 23px 19px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: rgb(120, 118, 118);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 49px;
+    width: 34%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 39px;
+    letter-spacing: 4px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 59px;
+    margin: -26px 22px;
+
+}
+
+.container button {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    display: block;
+    width: 104%;
+    margin: 20px auto;
+}
+
+.form-group input {
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+    display: block;
+    width: 497px;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 7px auto;
+    border-radius: 10px;
+}
+
+.gender {
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.g {
+    text-decoration: underline;
+}
+
+.action:hover {
+    border: 2px solid black;
+}
